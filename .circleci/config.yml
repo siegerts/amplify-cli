@@ -9,7 +9,7 @@ defaults: &defaults
     - image: 744586199449.dkr.ecr.us-east-2.amazonaws.com/amplify-cli-base-image:latest
 
 jobs:
-  build_image:
+  build:
     docker:
       - image: circleci/node:10.18
     steps:
